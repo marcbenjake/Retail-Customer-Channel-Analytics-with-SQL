@@ -1,4 +1,4 @@
-**-- 6. Which acquisition channels produce the highest-value customers?** 
+**6. Which acquisition channels produce the highest-value customers?** 
 
 WITH cte AS (
 SELECT
@@ -20,7 +20,7 @@ FROM cte
 GROUP BY acquisition_channel
 ORDER BY total_spend_per_customer DESC
 
-**-- 7. Do email opt-in customers spend more?**
+**7. Do email opt-in customers spend more?**
 
 WITH cte AS (
 SELECT
@@ -42,7 +42,7 @@ SELECT
 FROM cte
 GROUP BY email_opt_in_status
 
-**-- 8. Which customer segments have the highest return/cancellation rates?**
+**8. Which customer segments have the highest return/cancellation rates?**
 
 SELECT
     COUNT(c.customer_id) as customer_count,
@@ -55,7 +55,7 @@ WHERE o.order_status = 'Returned' OR o.order_status = 'Cancelled'
 GROUP BY c.customer_segment, o.order_status
 ORDER BY customer_count DESC
 
-**-- 9. Which customers haven't placed any orders?**
+**9. Which customers haven't placed any orders?**
 
 SELECT
 	c.customer_id,
@@ -69,7 +69,7 @@ LEFT JOIN orders AS o
 ON c.customer_id = o.customer_id
 WHERE o.customer_id IS NULL
 
-**-- 10. What's the average time between signup and first order by acquisition channel?**
+**10. What's the average time between signup and first order by acquisition channel?**
 
 WITH cte1 AS (
 SELECT
