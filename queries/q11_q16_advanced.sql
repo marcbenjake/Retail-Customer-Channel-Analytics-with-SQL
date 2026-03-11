@@ -1,4 +1,4 @@
-**-- 11. Who are our top 10% of customers by revenue, and what do they have in common?**
+**11. Who are our top 10% of customers by revenue, and what do they have in common?**
 
 WITH cte AS (
 SELECT
@@ -26,7 +26,7 @@ FROM cte
 WHERE spend_percentile = 1
 ORDER BY total_spend DESC
 
-**-- 12. What's the month-over-month revenue growth rate?**
+**12. What's the month-over-month revenue growth rate?**
 
 WITH cte AS (
 SELECT
@@ -44,7 +44,7 @@ SELECT
     ROUND((monthly_revenue - LAG(monthly_revenue) OVER(ORDER BY year, month)) * 100.0 / LAG(monthly_revenue) OVER(ORDER BY year, month),2) AS percent_difference
 FROM cte
 
-**-- 13. Build a simple RFM score for each customer Calculate Recency (days since last order), Frequency (order count), and Monetary (total spend) per customer**
+**13. Build a simple RFM score for each customer Calculate Recency (days since last order), Frequency (order count), and Monetary (total spend) per customer**
 
 WITH cte AS (
 SELECT
@@ -73,7 +73,7 @@ SELECT
 FROM cte2
 ORDER BY rfm_score DESC
 
-**-- 14. Which marketing channels have the best ROI?**
+**14. Which marketing channels have the best ROI?**
 
 WITH cte AS (
 SELECT
@@ -92,7 +92,7 @@ SELECT
 FROM cte
 ORDER BY marketing_ROI DESC
 
-**-- 15. Which acquisition channels produce the most frequent buyers, and do paid channels drive higher purchase frequency than organic ones?**
+**15. Which acquisition channels produce the most frequent buyers, and do paid channels drive higher purchase frequency than organic ones?**
 
 WITH cte1 AS (
 SELECT
@@ -124,7 +124,7 @@ SELECT
     average_order_count
 FROM cte2
 
-**-- 16.	Which customer segments have a disproportionately high return and cancellation rate, and where should the business focus its retention efforts?**
+**16. Which customer segments have a disproportionately high return and cancellation rate, and where should the business focus its retention efforts?**
 
 WITH cte AS (
 SELECT
