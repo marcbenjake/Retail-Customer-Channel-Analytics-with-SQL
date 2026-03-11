@@ -1,0 +1,501 @@
+customer_id,signup_date,age,gender,country,acquisition_channel,customer_segment,email_domain,estimated_clv,email_opt_in,push_opt_in
+93810,2022-06-06,20,F,Australia,Display Ad,Loyalist,yahoo.com,137.62,1,1
+24592,2022-10-05,60,M,Germany,Paid Search,High-Value,outlook.com,61.36,1,1
+13278,2024-09-23,42,M,UK,Social Media,Occasional,icloud.com,447.95,1,0
+46048,2024-05-27,59,F,USA,Social Media,New,yahoo.com,275.49,1,0
+42098,2021-07-11,70,F,Mexico,Paid Search,At-Risk,yahoo.com,132.65,1,0
+39256,2024-07-13,54,M,USA,Email,Churned,gmail.com,12.08,0,0
+28289,2024-02-16,33,F,Mexico,Organic Search,Loyalist,icloud.com,386.55,1,0
+23434,2024-01-28,46,M,France,Email,High-Value,yahoo.com,440.3,0,0
+98696,2022-05-05,35,M,USA,Paid Search,High-Value,icloud.com,139.7,1,0
+81482,2022-11-09,52,M,Canada,Direct,Loyalist,icloud.com,985.29,1,0
+21395,2022-09-04,66,F,USA,Direct,Occasional,icloud.com,175.82,1,1
+87397,2024-10-01,61,F,Germany,Direct,High-Value,icloud.com,362.09,1,0
+65302,2021-06-21,59,M,USA,Organic Search,Occasional,hotmail.com,80.78,0,1
+14165,2023-05-14,34,M,Germany,Social Media,New,hotmail.com,103.67,0,1
+13905,2021-03-05,33,M,USA,Organic Search,Loyalist,gmail.com,211.53,0,0
+22280,2021-12-10,56,F,UK,Organic Search,High-Value,hotmail.com,60.35,0,1
+38657,2022-02-11,22,F,UK,Paid Search,Occasional,hotmail.com,947.93,1,0
+40495,2021-03-26,40,F,Canada,Organic Search,Churned,gmail.com,807.3,0,0
+76237,2023-12-05,59,F,USA,Email,Occasional,outlook.com,819.21,1,1
+88907,2021-06-27,35,F,France,Email,At-Risk,outlook.com,98.44,1,0
+13478,2022-12-28,69,F,USA,Social Media,At-Risk,icloud.com,165.81,0,0
+83563,2023-10-03,46,F,Germany,Paid Search,Loyalist,hotmail.com,296.0,1,1
+36062,2024-02-02,39,M,USA,Paid Search,New,yahoo.com,46.82,0,0
+95181,2022-01-28,31,F,Australia,Social Media,At-Risk,icloud.com,114.98,1,1
+81426,2022-01-03,37,Prefer not to say,USA,Paid Search,New,icloud.com,519.28,1,1
+64987,2022-08-06,48,M,Canada,Display Ad,New,outlook.com,174.72,0,1
+38893,2024-02-27,37,M,USA,Social Media,At-Risk,icloud.com,368.18,1,0
+68878,2023-06-26,37,F,France,Paid Search,Occasional,icloud.com,681.28,1,1
+87236,2022-05-07,29,F,Canada,Email,Loyalist,outlook.com,108.58,0,0
+46463,2023-07-19,22,F,UK,Direct,Occasional,yahoo.com,132.93,1,0
+10851,2021-10-19,22,F,USA,Social Media,High-Value,hotmail.com,146.04,1,1
+30926,2022-07-12,50,F,Canada,Social Media,New,hotmail.com,221.61,1,0
+65392,2024-03-24,55,M,Mexico,Social Media,Occasional,gmail.com,330.95,1,0
+54597,2022-07-24,29,Non-binary,India,Direct,New,outlook.com,117.88,1,0
+46421,2022-11-07,44,F,UK,Display Ad,At-Risk,icloud.com,106.86,0,0
+30379,2021-01-03,60,F,France,Organic Search,New,icloud.com,659.77,0,1
+38221,2024-01-30,26,M,Mexico,Social Media,New,icloud.com,1269.31,1,1
+54118,2023-04-16,23,Non-binary,USA,Organic Search,Occasional,yahoo.com,179.32,1,1
+23396,2023-09-16,48,F,USA,Paid Search,New,icloud.com,310.52,1,0
+22156,2023-04-30,39,M,Mexico,Direct,New,hotmail.com,825.52,1,0
+59797,2023-07-04,52,M,Canada,Direct,New,hotmail.com,81.55,0,0
+22676,2022-10-14,65,Prefer not to say,Canada,Paid Search,Occasional,yahoo.com,179.62,1,0
+57052,2021-07-25,72,F,USA,Email,New,outlook.com,55.87,1,1
+55082,2022-11-04,72,F,UK,Display Ad,New,outlook.com,412.69,1,0
+89131,2021-07-25,46,M,USA,Organic Search,At-Risk,gmail.com,97.15,1,0
+44671,2024-03-05,61,F,Germany,Organic Search,Loyalist,icloud.com,360.67,1,1
+15695,2024-07-30,34,F,Canada,Affiliate,Churned,hotmail.com,269.9,1,1
+70217,2024-04-18,37,F,UK,Paid Search,New,yahoo.com,54.61,1,1
+80284,2024-12-03,36,M,USA,Paid Search,Occasional,gmail.com,356.34,0,1
+26361,2022-01-25,57,F,USA,Direct,High-Value,yahoo.com,2220.35,1,1
+59615,2023-06-22,20,M,UK,Organic Search,High-Value,outlook.com,89.54,1,0
+20328,2023-12-24,50,F,Mexico,Paid Search,Occasional,outlook.com,633.53,0,0
+82357,2023-08-18,22,F,USA,Affiliate,Occasional,outlook.com,54.05,1,0
+48427,2023-07-21,41,F,UK,Social Media,Churned,hotmail.com,69.09,1,0
+92397,2024-02-24,38,F,Mexico,Organic Search,At-Risk,hotmail.com,249.34,1,1
+91070,2023-10-06,25,M,USA,Organic Search,Occasional,icloud.com,100.27,1,0
+57400,2021-07-22,71,M,Canada,Display Ad,New,hotmail.com,69.35,1,1
+85674,2024-11-05,41,M,Canada,Paid Search,Occasional,yahoo.com,355.5,1,0
+35203,2021-02-13,21,F,Germany,Organic Search,At-Risk,gmail.com,732.27,1,0
+19116,2022-04-23,39,M,Australia,Social Media,High-Value,yahoo.com,341.34,0,1
+16006,2023-01-04,68,M,Germany,Organic Search,Churned,yahoo.com,474.61,0,0
+96673,2023-01-12,50,F,UK,Paid Search,New,icloud.com,63.46,1,0
+39871,2023-04-03,45,M,UK,Affiliate,New,gmail.com,122.22,1,0
+47930,2024-04-13,53,M,Australia,Social Media,New,icloud.com,226.07,0,0
+20458,2024-08-26,67,F,Canada,Email,Occasional,outlook.com,103.94,1,1
+40512,2023-05-25,38,F,UK,Organic Search,New,gmail.com,109.58,1,1
+23238,2021-05-03,55,M,Mexico,Social Media,New,outlook.com,93.38,1,0
+59823,2022-04-05,72,F,USA,Paid Search,Occasional,icloud.com,73.32,1,0
+46434,2024-06-27,57,F,UK,Social Media,New,hotmail.com,53.35,0,0
+69429,2022-12-20,18,M,USA,Social Media,Loyalist,gmail.com,35.13,1,0
+93320,2021-11-19,41,F,USA,Display Ad,At-Risk,gmail.com,150.45,1,0
+57819,2022-03-18,66,F,Canada,Organic Search,New,icloud.com,168.04,1,1
+31319,2024-05-12,21,M,USA,Organic Search,At-Risk,hotmail.com,115.41,1,0
+58520,2021-09-22,42,F,Canada,Social Media,At-Risk,hotmail.com,253.44,0,0
+56566,2021-08-24,43,F,USA,Direct,At-Risk,hotmail.com,55.8,1,1
+37460,2022-09-28,65,F,USA,Organic Search,New,gmail.com,194.74,0,1
+97841,2024-08-14,70,M,USA,Paid Search,Loyalist,yahoo.com,754.03,1,0
+44993,2023-10-09,47,F,Australia,Email,High-Value,icloud.com,97.58,1,0
+99593,2022-07-17,55,M,USA,Paid Search,New,gmail.com,128.07,1,0
+94939,2021-07-04,57,Non-binary,UK,Social Media,New,gmail.com,110.08,1,1
+19358,2023-09-02,50,F,USA,Organic Search,Loyalist,hotmail.com,241.53,0,0
+89840,2023-12-10,51,M,UK,Affiliate,New,hotmail.com,258.85,1,1
+93227,2022-11-07,24,F,Canada,Paid Search,New,icloud.com,521.47,1,1
+32431,2022-12-18,37,F,India,Paid Search,Churned,gmail.com,101.85,0,0
+80010,2024-10-04,62,F,Germany,Social Media,High-Value,outlook.com,184.25,1,0
+42087,2022-12-01,67,M,Canada,Organic Search,At-Risk,gmail.com,187.08,0,0
+31417,2024-09-17,39,M,France,Social Media,Churned,yahoo.com,364.63,1,0
+70589,2024-10-17,64,F,USA,Paid Search,New,outlook.com,93.71,0,0
+59735,2022-02-02,41,F,UK,Email,New,outlook.com,182.99,1,1
+45382,2024-05-23,26,M,France,Email,Loyalist,gmail.com,413.26,1,1
+93886,2021-11-25,35,M,USA,Direct,New,yahoo.com,726.59,1,1
+83000,2023-03-02,23,F,USA,Display Ad,Loyalist,hotmail.com,342.95,1,0
+38785,2024-11-26,71,M,USA,Email,High-Value,gmail.com,258.85,0,1
+99733,2021-09-07,21,M,USA,Social Media,Churned,outlook.com,218.24,1,1
+52504,2021-10-22,36,M,USA,Paid Search,Churned,gmail.com,194.28,0,0
+17331,2023-11-06,53,M,USA,Organic Search,Occasional,hotmail.com,416.13,0,0
+40021,2024-04-06,65,M,Australia,Paid Search,Loyalist,yahoo.com,1309.3,0,0
+14207,2022-01-09,69,M,USA,Display Ad,High-Value,yahoo.com,2614.6,1,1
+51347,2024-08-17,30,F,USA,Organic Search,Occasional,hotmail.com,59.07,0,0
+62581,2023-03-03,39,F,India,Email,New,icloud.com,112.18,1,0
+45093,2022-01-05,52,M,USA,Paid Search,Loyalist,outlook.com,254.03,0,1
+18675,2021-03-28,64,M,France,Referral,New,gmail.com,19.84,1,0
+37653,2024-10-23,28,F,Mexico,Social Media,Loyalist,gmail.com,72.01,1,1
+84341,2024-03-07,20,M,UK,Display Ad,Churned,gmail.com,243.83,1,0
+51245,2022-05-27,25,F,USA,Email,At-Risk,gmail.com,98.72,1,0
+37869,2022-08-08,62,F,Mexico,Organic Search,New,outlook.com,21.01,0,0
+95909,2022-10-17,60,F,USA,Email,Loyalist,yahoo.com,638.78,1,1
+75435,2022-02-16,68,F,USA,Organic Search,High-Value,hotmail.com,4.85,1,0
+61856,2021-05-15,37,M,USA,Email,High-Value,outlook.com,134.95,1,0
+94259,2024-02-04,58,F,UK,Organic Search,High-Value,gmail.com,663.62,1,1
+70142,2024-12-23,32,F,USA,Affiliate,Occasional,hotmail.com,58.26,1,1
+28726,2024-08-05,28,F,UK,Organic Search,Churned,icloud.com,363.4,1,0
+44718,2024-06-19,58,F,USA,Email,Occasional,hotmail.com,153.73,0,1
+28301,2021-05-30,62,M,USA,Email,New,icloud.com,111.58,0,0
+42325,2021-08-06,38,M,USA,Email,Loyalist,gmail.com,95.31,1,1
+83579,2021-11-24,70,F,USA,Paid Search,New,outlook.com,752.35,1,1
+80644,2023-07-26,33,F,USA,Organic Search,New,outlook.com,89.95,1,1
+44438,2021-04-15,54,M,Canada,Paid Search,New,outlook.com,362.39,0,0
+86622,2021-09-01,26,M,India,Direct,New,hotmail.com,330.54,1,0
+66155,2021-04-03,20,M,USA,Email,New,icloud.com,598.55,1,0
+86484,2022-09-05,55,F,USA,Email,Occasional,hotmail.com,172.75,1,1
+62350,2023-05-04,55,F,USA,Affiliate,Occasional,icloud.com,42.26,0,0
+57447,2024-03-28,32,F,Australia,Organic Search,Churned,icloud.com,418.25,0,1
+38746,2024-03-18,62,M,USA,Paid Search,Loyalist,yahoo.com,85.49,0,0
+28131,2021-05-08,63,F,USA,Paid Search,At-Risk,icloud.com,154.0,1,0
+76784,2024-10-26,59,Non-binary,Germany,Email,At-Risk,hotmail.com,208.81,0,1
+74686,2022-08-15,63,M,USA,Paid Search,High-Value,hotmail.com,70.89,1,0
+21915,2023-03-20,70,M,USA,Organic Search,High-Value,gmail.com,107.78,1,0
+16175,2022-02-18,70,M,Canada,Social Media,Occasional,icloud.com,329.5,1,0
+24371,2022-04-08,58,F,USA,Paid Search,Loyalist,yahoo.com,710.02,0,0
+30033,2023-09-05,59,F,USA,Paid Search,Occasional,gmail.com,263.57,0,0
+92240,2021-03-18,29,M,USA,Display Ad,Occasional,outlook.com,353.48,0,0
+30969,2022-08-16,20,Prefer not to say,USA,Organic Search,New,hotmail.com,142.57,1,0
+99192,2021-10-02,72,M,Canada,Direct,At-Risk,outlook.com,490.0,1,1
+65333,2022-08-28,54,F,UK,Social Media,At-Risk,outlook.com,647.43,1,0
+88172,2022-01-14,26,M,Canada,Organic Search,Occasional,outlook.com,47.05,1,0
+18326,2024-11-19,33,M,USA,Paid Search,Loyalist,icloud.com,938.38,1,0
+60432,2023-01-23,57,M,USA,Email,Occasional,icloud.com,81.44,0,0
+60019,2024-09-22,70,F,USA,Direct,At-Risk,gmail.com,200.74,1,0
+88104,2021-08-18,21,F,Germany,Organic Search,Occasional,yahoo.com,92.18,1,1
+71348,2024-04-09,49,M,USA,Direct,New,icloud.com,125.72,1,0
+79352,2022-09-24,64,M,USA,Organic Search,At-Risk,gmail.com,48.96,1,0
+42953,2021-05-22,48,F,USA,Direct,New,outlook.com,20.49,1,0
+82512,2023-02-13,42,M,USA,Affiliate,Occasional,hotmail.com,143.85,0,0
+11504,2021-02-16,37,M,Canada,Email,High-Value,yahoo.com,87.47,1,0
+99166,2021-08-20,20,F,Germany,Direct,New,gmail.com,107.27,1,0
+25014,2024-10-08,63,M,France,Organic Search,At-Risk,icloud.com,33.54,1,0
+99353,2024-03-25,38,M,UK,Direct,High-Value,yahoo.com,144.74,1,0
+80381,2021-12-25,58,M,UK,Organic Search,New,outlook.com,400.08,1,1
+44973,2023-02-10,29,M,Australia,Direct,New,yahoo.com,7006.27,1,1
+94012,2022-05-13,34,F,USA,Display Ad,Churned,gmail.com,268.86,1,1
+54587,2024-05-23,56,F,USA,Direct,Loyalist,icloud.com,92.29,0,1
+24621,2021-02-01,31,Prefer not to say,Mexico,Organic Search,Occasional,outlook.com,342.85,1,1
+48469,2022-08-03,42,M,Canada,Paid Search,Churned,outlook.com,130.93,0,0
+66985,2022-10-18,31,M,USA,Social Media,New,yahoo.com,319.37,1,1
+30730,2022-04-17,42,Non-binary,Canada,Social Media,At-Risk,hotmail.com,13.92,0,0
+69470,2023-10-02,47,F,USA,Organic Search,High-Value,outlook.com,240.03,1,0
+10425,2021-04-10,66,M,USA,Social Media,Loyalist,yahoo.com,96.92,1,0
+44522,2023-09-17,60,M,Canada,Social Media,Loyalist,icloud.com,447.26,1,0
+75612,2024-11-30,61,F,USA,Organic Search,Occasional,icloud.com,79.84,1,0
+33416,2022-07-02,68,F,USA,Email,New,yahoo.com,20.18,1,0
+76542,2024-08-23,66,F,USA,Paid Search,New,gmail.com,275.14,0,0
+23947,2022-11-10,54,F,India,Affiliate,Occasional,yahoo.com,730.97,1,1
+91959,2022-07-29,52,M,Canada,Display Ad,Loyalist,yahoo.com,351.76,0,1
+49117,2021-06-07,37,M,USA,Direct,At-Risk,icloud.com,49.44,1,0
+93748,2021-06-10,50,M,Australia,Organic Search,New,gmail.com,49.29,0,1
+76540,2022-10-31,19,M,UK,Email,High-Value,icloud.com,784.64,1,0
+89818,2021-06-25,67,M,UK,Social Media,High-Value,yahoo.com,63.57,1,1
+36071,2023-01-09,24,F,USA,Email,Occasional,gmail.com,77.21,1,0
+30032,2023-04-16,24,F,USA,Organic Search,New,hotmail.com,86.79,0,0
+59009,2022-05-13,54,M,Canada,Organic Search,Churned,hotmail.com,178.78,1,0
+31174,2023-09-19,68,F,USA,Paid Search,At-Risk,icloud.com,272.08,1,1
+80697,2023-03-22,39,M,Germany,Affiliate,New,outlook.com,79.59,0,0
+79514,2022-08-20,65,M,UK,Social Media,New,outlook.com,26.15,1,0
+10074,2022-02-14,55,M,India,Direct,Loyalist,outlook.com,522.0,0,0
+88504,2021-05-22,70,M,Germany,Social Media,High-Value,hotmail.com,43.54,0,0
+52487,2021-06-01,46,F,India,Email,New,outlook.com,268.69,1,0
+74042,2024-01-05,56,F,UK,Direct,Loyalist,hotmail.com,35.67,1,0
+12552,2024-08-17,43,M,India,Direct,New,gmail.com,71.49,1,0
+24662,2024-03-24,32,F,USA,Direct,New,icloud.com,173.1,0,1
+57576,2021-10-18,40,F,USA,Organic Search,New,outlook.com,164.65,1,0
+50306,2021-02-16,72,F,USA,Direct,Loyalist,yahoo.com,193.9,1,0
+41385,2023-08-05,32,F,Germany,Organic Search,Churned,outlook.com,44.67,1,0
+17592,2022-02-26,35,M,Australia,Organic Search,Occasional,icloud.com,75.46,1,1
+41571,2023-09-30,51,M,India,Paid Search,At-Risk,gmail.com,28.28,1,0
+84364,2024-12-16,69,M,USA,Organic Search,Churned,gmail.com,103.68,1,1
+20322,2023-03-07,44,F,UK,Email,New,icloud.com,507.24,0,0
+21226,2023-09-30,36,M,USA,Email,At-Risk,hotmail.com,948.04,1,1
+73699,2024-02-25,50,F,UK,Email,New,outlook.com,177.11,1,0
+19071,2022-08-22,20,M,USA,Organic Search,New,outlook.com,201.51,1,0
+79822,2023-01-22,52,F,Germany,Social Media,Loyalist,outlook.com,356.16,0,0
+26483,2022-12-15,70,F,USA,Organic Search,Occasional,yahoo.com,752.08,1,0
+26828,2024-07-19,45,M,USA,Organic Search,Loyalist,gmail.com,240.5,1,1
+96474,2024-12-12,36,Prefer not to say,USA,Affiliate,At-Risk,gmail.com,151.81,1,0
+72296,2024-12-07,26,F,USA,Direct,High-Value,outlook.com,172.94,1,0
+82063,2023-07-15,22,F,UK,Organic Search,Occasional,hotmail.com,3622.4,1,0
+31643,2024-04-06,18,Prefer not to say,France,Organic Search,Occasional,hotmail.com,609.84,1,1
+44741,2024-01-26,54,F,USA,Direct,Occasional,gmail.com,9.23,0,1
+79163,2023-01-09,34,M,USA,Social Media,Churned,hotmail.com,1035.15,1,1
+89507,2021-07-14,18,F,USA,Social Media,Loyalist,outlook.com,153.1,1,1
+65461,2021-07-29,24,F,USA,Organic Search,Occasional,yahoo.com,414.67,1,0
+37760,2024-06-03,59,F,USA,Organic Search,New,outlook.com,268.49,1,0
+80686,2021-10-14,66,M,USA,Paid Search,High-Value,yahoo.com,47.5,1,0
+36365,2024-05-29,36,F,Australia,Direct,Churned,hotmail.com,44.07,1,1
+50857,2024-08-16,21,M,Germany,Paid Search,High-Value,yahoo.com,180.92,1,0
+62296,2023-01-10,38,M,USA,Social Media,Occasional,yahoo.com,59.97,1,1
+98039,2023-03-27,50,M,USA,Direct,High-Value,outlook.com,33.1,1,1
+95180,2022-09-27,23,F,Canada,Direct,At-Risk,outlook.com,361.01,1,0
+58944,2022-09-28,62,M,USA,Paid Search,Occasional,outlook.com,27.96,1,0
+67422,2024-09-09,65,M,USA,Organic Search,Loyalist,outlook.com,1088.13,0,0
+77839,2021-12-08,41,F,USA,Paid Search,High-Value,gmail.com,105.05,1,1
+69177,2024-03-26,58,F,USA,Paid Search,New,icloud.com,85.97,0,0
+25860,2024-10-12,64,F,USA,Organic Search,High-Value,gmail.com,72.78,1,1
+42493,2021-03-14,53,M,Germany,Social Media,High-Value,yahoo.com,103.03,1,1
+39451,2023-02-03,25,F,Canada,Organic Search,Occasional,gmail.com,165.38,0,1
+18392,2024-02-07,47,M,USA,Social Media,At-Risk,icloud.com,84.02,0,0
+54313,2022-02-05,64,M,France,Paid Search,High-Value,outlook.com,418.58,1,1
+12757,2024-09-08,42,F,Germany,Organic Search,High-Value,yahoo.com,3.68,0,1
+87110,2022-07-28,23,M,USA,Direct,At-Risk,hotmail.com,132.83,1,0
+82603,2024-07-29,70,F,USA,Organic Search,Churned,yahoo.com,92.56,1,0
+40161,2024-12-06,71,M,Australia,Paid Search,At-Risk,yahoo.com,157.79,1,1
+87128,2022-03-02,46,M,USA,Organic Search,At-Risk,hotmail.com,1382.87,1,0
+38864,2022-11-03,27,F,USA,Paid Search,At-Risk,hotmail.com,41.03,1,0
+10942,2022-05-27,24,M,Canada,Organic Search,Occasional,yahoo.com,94.43,1,0
+19305,2022-06-15,70,F,USA,Organic Search,Occasional,yahoo.com,352.23,0,1
+92719,2024-03-21,45,F,Germany,Organic Search,New,yahoo.com,8.97,1,0
+17716,2021-11-01,20,F,UK,Social Media,Churned,icloud.com,173.58,1,0
+40007,2024-08-09,69,F,Canada,Direct,Churned,outlook.com,415.75,1,0
+18834,2024-03-04,50,F,USA,Organic Search,At-Risk,gmail.com,230.03,0,0
+14117,2021-07-25,33,F,UK,Direct,At-Risk,gmail.com,7.03,0,1
+53309,2022-04-30,55,F,USA,Paid Search,High-Value,hotmail.com,1255.59,1,1
+19287,2023-10-06,52,M,USA,Organic Search,New,yahoo.com,31.96,1,0
+77391,2021-09-25,39,M,Australia,Direct,Occasional,gmail.com,19.08,1,1
+41195,2023-12-14,41,M,India,Display Ad,New,gmail.com,114.97,0,0
+46500,2023-06-14,68,F,UK,Paid Search,New,icloud.com,364.03,1,1
+97684,2022-09-21,64,Non-binary,UK,Social Media,Loyalist,icloud.com,2094.25,0,1
+73624,2024-03-04,24,M,Mexico,Social Media,Loyalist,hotmail.com,1837.0,1,1
+38080,2022-05-27,62,M,USA,Organic Search,At-Risk,outlook.com,148.28,1,0
+80678,2023-02-15,40,F,Canada,Email,Loyalist,yahoo.com,457.32,1,0
+27342,2021-06-01,39,F,USA,Social Media,New,gmail.com,124.69,1,0
+84847,2021-04-20,24,F,USA,Email,Occasional,icloud.com,97.85,1,1
+85525,2024-03-16,53,M,Germany,Paid Search,Loyalist,hotmail.com,925.48,1,1
+71953,2022-02-28,28,M,UK,Email,Occasional,outlook.com,107.6,1,0
+41850,2023-03-05,29,M,USA,Organic Search,New,outlook.com,166.46,1,1
+71993,2024-11-27,60,M,USA,Direct,Churned,icloud.com,104.84,1,0
+63354,2024-01-02,61,F,France,Affiliate,New,gmail.com,46.57,1,0
+34957,2023-11-25,69,Non-binary,UK,Organic Search,Occasional,outlook.com,53.34,0,0
+22363,2024-07-08,27,F,Germany,Affiliate,At-Risk,gmail.com,31.29,1,0
+22704,2023-12-01,47,F,Mexico,Social Media,Loyalist,outlook.com,76.72,1,0
+96374,2021-07-25,24,F,Canada,Paid Search,Loyalist,hotmail.com,477.75,1,0
+66498,2023-08-27,20,F,USA,Social Media,New,outlook.com,119.45,0,0
+56438,2023-02-02,19,F,USA,Paid Search,High-Value,gmail.com,41.71,0,1
+65519,2023-05-04,56,F,UK,Organic Search,At-Risk,outlook.com,632.54,1,1
+63883,2023-11-04,43,M,USA,Affiliate,Occasional,yahoo.com,439.57,1,1
+71213,2021-04-14,41,F,Australia,Direct,At-Risk,gmail.com,284.58,1,0
+17100,2023-08-30,55,M,Canada,Direct,New,gmail.com,93.58,1,0
+98259,2022-03-15,72,F,USA,Organic Search,At-Risk,icloud.com,1639.61,1,1
+95649,2022-06-01,56,F,Germany,Display Ad,At-Risk,outlook.com,164.19,1,0
+94696,2024-07-01,43,Non-binary,UK,Referral,Loyalist,hotmail.com,241.17,1,0
+22899,2023-09-14,22,M,USA,Paid Search,At-Risk,hotmail.com,53.61,1,1
+17944,2024-05-13,43,F,UK,Social Media,Churned,hotmail.com,83.03,1,1
+62772,2024-12-21,54,F,Germany,Social Media,New,outlook.com,198.2,0,0
+54473,2022-01-06,36,F,USA,Paid Search,Loyalist,yahoo.com,263.67,1,0
+24322,2023-05-12,68,F,France,Social Media,New,gmail.com,119.56,1,0
+42591,2021-05-26,48,M,France,Affiliate,New,hotmail.com,50.93,1,0
+35112,2022-12-03,44,M,India,Referral,Occasional,yahoo.com,506.36,1,1
+34931,2024-07-23,21,M,USA,Direct,At-Risk,yahoo.com,166.8,1,0
+80292,2024-07-21,45,M,USA,Paid Search,Occasional,yahoo.com,192.41,1,0
+68800,2022-04-09,62,F,France,Organic Search,At-Risk,hotmail.com,105.96,0,0
+28373,2022-11-23,45,F,France,Paid Search,Occasional,hotmail.com,319.0,0,0
+65296,2021-02-09,32,M,USA,Organic Search,Occasional,icloud.com,67.61,1,1
+34050,2024-08-04,34,M,Australia,Social Media,Churned,gmail.com,243.63,0,0
+46509,2023-02-18,25,F,Canada,Organic Search,New,gmail.com,59.78,1,1
+70637,2024-05-25,62,F,USA,Organic Search,Occasional,gmail.com,26.98,1,0
+42742,2022-06-23,71,M,Canada,Social Media,At-Risk,gmail.com,499.38,0,0
+19880,2022-04-26,18,F,USA,Organic Search,Loyalist,outlook.com,196.35,1,1
+68082,2022-04-19,47,M,India,Email,At-Risk,yahoo.com,80.15,1,1
+82132,2021-04-04,18,M,France,Organic Search,Churned,outlook.com,586.23,0,1
+22833,2022-12-03,29,F,USA,Email,New,outlook.com,908.36,0,1
+16630,2024-11-26,64,M,USA,Organic Search,Occasional,icloud.com,168.03,1,0
+95477,2023-01-05,57,Prefer not to say,USA,Direct,Churned,yahoo.com,170.31,0,0
+80855,2021-05-10,34,F,UK,Affiliate,Loyalist,icloud.com,312.36,0,0
+11934,2023-11-30,51,F,UK,Email,Churned,outlook.com,73.76,1,0
+22224,2024-02-18,57,F,USA,Organic Search,Churned,outlook.com,177.55,0,1
+40982,2022-04-02,53,M,UK,Paid Search,New,icloud.com,91.57,1,1
+31798,2023-10-16,65,F,UK,Email,Loyalist,gmail.com,974.6,1,0
+63269,2022-11-30,41,M,Germany,Direct,Occasional,icloud.com,352.72,1,0
+73653,2021-07-19,66,F,UK,Paid Search,Loyalist,hotmail.com,209.29,1,0
+73092,2023-10-06,26,M,Germany,Email,High-Value,yahoo.com,124.93,0,0
+38016,2021-08-09,66,F,USA,Direct,Occasional,outlook.com,149.04,1,0
+62565,2021-01-09,51,F,Australia,Email,New,icloud.com,280.91,0,1
+17685,2024-09-08,56,M,UK,Affiliate,At-Risk,icloud.com,918.44,1,0
+31579,2024-12-04,65,M,Canada,Email,Occasional,icloud.com,247.92,1,1
+59672,2022-12-09,61,M,USA,Referral,High-Value,icloud.com,311.42,1,1
+10282,2023-09-11,55,F,UK,Email,Churned,icloud.com,12.86,0,0
+61173,2021-02-21,42,F,USA,Organic Search,Churned,yahoo.com,355.71,1,1
+44760,2023-07-16,24,M,UK,Social Media,Churned,icloud.com,118.07,0,0
+69638,2024-11-20,60,F,USA,Email,New,hotmail.com,322.79,0,0
+47388,2023-06-27,71,M,USA,Social Media,Churned,icloud.com,226.28,0,0
+65444,2022-08-26,46,M,USA,Organic Search,Churned,icloud.com,102.87,1,0
+82845,2021-01-12,39,F,Canada,Organic Search,Occasional,icloud.com,345.59,1,0
+96752,2023-01-04,22,M,Germany,Organic Search,At-Risk,gmail.com,344.68,1,1
+73788,2022-12-17,32,M,France,Paid Search,Churned,icloud.com,61.96,1,0
+30289,2021-03-23,61,M,France,Direct,New,hotmail.com,201.52,0,0
+34890,2023-02-07,50,F,Germany,Organic Search,New,yahoo.com,125.27,1,0
+48890,2024-01-07,52,F,USA,Social Media,Loyalist,outlook.com,402.36,0,0
+38534,2023-06-11,59,M,Germany,Social Media,Loyalist,hotmail.com,80.46,1,0
+17665,2022-06-14,44,M,USA,Email,Churned,gmail.com,217.74,1,0
+85914,2024-04-14,20,M,Australia,Display Ad,Loyalist,hotmail.com,239.82,0,1
+81066,2024-09-15,19,M,Canada,Organic Search,New,icloud.com,62.98,1,0
+17989,2024-08-19,41,M,Mexico,Affiliate,Loyalist,gmail.com,680.14,1,0
+51104,2022-12-06,31,M,USA,Email,Churned,yahoo.com,243.51,1,0
+17492,2024-03-07,72,F,USA,Referral,High-Value,icloud.com,100.87,1,0
+16572,2023-01-02,26,M,UK,Paid Search,At-Risk,yahoo.com,96.94,1,1
+86569,2024-04-11,27,M,Canada,Paid Search,New,gmail.com,35.01,0,0
+72493,2022-07-21,71,F,USA,Paid Search,Churned,outlook.com,123.49,1,1
+75909,2024-05-27,23,F,Germany,Organic Search,Occasional,hotmail.com,590.13,0,0
+79615,2023-11-05,58,F,USA,Email,Churned,gmail.com,224.36,0,0
+30635,2021-11-01,41,F,USA,Social Media,Occasional,yahoo.com,158.21,1,0
+17455,2024-09-19,33,M,Germany,Social Media,Occasional,icloud.com,80.87,1,0
+76562,2021-10-27,65,F,Australia,Organic Search,Occasional,yahoo.com,49.0,1,1
+20500,2023-01-10,42,Prefer not to say,Canada,Organic Search,New,hotmail.com,256.45,0,0
+34356,2024-03-13,29,F,USA,Social Media,New,gmail.com,190.65,0,0
+18981,2022-12-24,70,F,France,Email,New,icloud.com,656.64,1,0
+87992,2022-07-30,31,F,USA,Social Media,Loyalist,yahoo.com,142.51,1,0
+18907,2023-09-09,31,M,UK,Email,Churned,yahoo.com,213.86,1,1
+98501,2024-03-18,27,Non-binary,USA,Organic Search,At-Risk,icloud.com,46.56,1,0
+40828,2022-03-26,71,F,USA,Social Media,Loyalist,icloud.com,273.04,0,1
+62923,2023-07-18,56,M,UK,Paid Search,At-Risk,yahoo.com,290.83,0,0
+25713,2024-05-25,24,F,USA,Social Media,Occasional,icloud.com,182.57,1,1
+84668,2024-05-20,52,F,Germany,Direct,Occasional,icloud.com,54.83,0,0
+42271,2023-09-15,68,F,Australia,Direct,New,icloud.com,171.36,0,1
+85880,2024-01-19,44,M,USA,Social Media,Loyalist,icloud.com,461.3,1,1
+87924,2021-11-13,45,M,UK,Affiliate,At-Risk,hotmail.com,142.16,1,0
+15209,2022-01-02,41,F,Canada,Referral,New,outlook.com,596.99,1,0
+91183,2021-11-28,24,F,USA,Paid Search,New,gmail.com,159.13,1,1
+20745,2021-03-19,64,F,USA,Social Media,Occasional,icloud.com,53.95,1,0
+64948,2023-11-28,36,F,USA,Email,High-Value,icloud.com,409.88,1,0
+96163,2023-11-27,18,M,Australia,Organic Search,Loyalist,icloud.com,602.65,0,1
+86503,2024-05-26,30,M,Canada,Organic Search,New,icloud.com,287.77,0,0
+84085,2022-05-14,66,F,USA,Social Media,High-Value,gmail.com,173.15,1,0
+78522,2022-03-28,61,M,Australia,Email,Occasional,icloud.com,107.36,1,0
+51467,2021-06-05,53,F,Mexico,Paid Search,New,hotmail.com,17.15,0,1
+44179,2022-02-13,33,M,Australia,Organic Search,Occasional,yahoo.com,485.7,0,1
+36772,2021-06-10,61,F,Mexico,Organic Search,New,gmail.com,515.12,1,0
+97782,2024-03-22,35,M,Canada,Affiliate,Occasional,yahoo.com,311.54,1,0
+51180,2024-01-13,20,M,Canada,Social Media,New,gmail.com,362.45,0,1
+41285,2022-03-08,42,M,UK,Social Media,At-Risk,icloud.com,98.24,0,1
+44814,2022-01-12,49,M,USA,Direct,New,outlook.com,109.17,1,0
+61876,2022-04-14,70,M,USA,Paid Search,At-Risk,outlook.com,425.88,1,0
+27154,2021-10-03,72,F,UK,Paid Search,New,hotmail.com,237.78,1,0
+94607,2021-05-03,31,M,Germany,Social Media,New,hotmail.com,89.24,1,0
+49321,2022-12-06,19,F,USA,Social Media,New,icloud.com,272.65,1,0
+69929,2022-12-29,38,F,UK,Social Media,New,outlook.com,270.42,0,0
+51441,2024-08-04,69,M,Mexico,Social Media,New,gmail.com,54.05,1,0
+19508,2024-12-25,35,F,UK,Affiliate,New,hotmail.com,481.3,1,1
+11220,2021-02-17,26,F,Australia,Display Ad,Churned,gmail.com,73.27,1,0
+70068,2023-08-28,53,Prefer not to say,USA,Email,High-Value,gmail.com,106.63,1,0
+91416,2022-09-26,32,M,USA,Social Media,At-Risk,yahoo.com,496.59,1,0
+83792,2024-01-13,35,F,Canada,Display Ad,Loyalist,icloud.com,298.6,1,0
+23104,2023-12-09,58,F,UK,Paid Search,At-Risk,gmail.com,152.48,1,1
+19602,2021-01-01,51,F,Germany,Paid Search,Occasional,gmail.com,364.1,0,1
+80468,2023-06-01,69,M,USA,Organic Search,At-Risk,outlook.com,652.74,1,0
+37938,2024-08-15,42,F,Germany,Organic Search,At-Risk,icloud.com,1141.96,1,0
+76307,2022-07-05,44,M,USA,Organic Search,Loyalist,outlook.com,245.97,1,1
+27361,2021-02-09,27,M,USA,Organic Search,New,hotmail.com,51.42,1,1
+55745,2021-01-31,49,F,USA,Direct,New,hotmail.com,130.51,1,0
+19016,2021-10-27,21,M,USA,Email,New,hotmail.com,22.86,1,0
+42018,2021-03-10,30,Prefer not to say,Canada,Email,High-Value,outlook.com,979.66,1,1
+58434,2023-09-13,58,F,USA,Organic Search,New,gmail.com,75.15,1,0
+47353,2024-04-12,25,F,USA,Display Ad,At-Risk,outlook.com,276.1,0,1
+30676,2023-10-21,23,F,UK,Display Ad,New,gmail.com,1120.89,1,1
+67433,2024-02-18,68,F,UK,Affiliate,New,gmail.com,316.21,1,0
+81200,2023-09-21,63,M,USA,Social Media,At-Risk,yahoo.com,204.73,1,0
+49651,2024-05-11,53,F,USA,Email,New,icloud.com,275.74,1,1
+90173,2023-01-16,67,Non-binary,UK,Organic Search,At-Risk,outlook.com,28.57,0,1
+95717,2022-08-03,38,F,USA,Organic Search,At-Risk,gmail.com,374.98,0,1
+79329,2023-09-22,30,F,USA,Direct,New,icloud.com,320.86,1,1
+11025,2021-05-26,18,F,Mexico,Email,At-Risk,gmail.com,153.4,1,0
+97538,2023-05-02,70,M,USA,Direct,High-Value,gmail.com,2619.82,1,1
+82692,2023-11-30,24,M,USA,Paid Search,At-Risk,yahoo.com,2246.8,1,0
+49240,2021-08-05,67,F,UK,Email,New,gmail.com,84.17,1,1
+96951,2021-11-20,52,M,India,Paid Search,New,hotmail.com,548.61,1,0
+23577,2022-10-25,56,F,USA,Paid Search,New,hotmail.com,111.9,0,1
+27601,2021-03-12,36,M,UK,Referral,New,hotmail.com,39.3,0,0
+44664,2024-02-08,50,M,Canada,Organic Search,Occasional,hotmail.com,74.97,0,1
+25129,2022-06-09,69,M,USA,Social Media,New,gmail.com,1390.32,1,0
+24029,2024-11-13,62,M,UK,Social Media,Occasional,icloud.com,65.59,0,1
+30374,2023-06-09,44,F,Mexico,Direct,Loyalist,icloud.com,235.98,1,1
+45697,2024-03-02,27,F,USA,Organic Search,Churned,outlook.com,211.89,1,0
+46930,2021-10-31,26,F,USA,Social Media,New,hotmail.com,37.65,0,1
+89276,2021-10-04,48,M,Canada,Social Media,New,icloud.com,93.44,1,0
+37607,2024-03-25,23,M,USA,Paid Search,New,hotmail.com,217.36,1,0
+54942,2024-06-16,70,M,India,Organic Search,New,yahoo.com,73.33,0,0
+36685,2021-08-19,65,F,USA,Display Ad,Occasional,hotmail.com,47.76,1,1
+93130,2024-01-07,31,F,USA,Paid Search,New,yahoo.com,549.85,1,0
+44600,2023-12-15,20,F,USA,Organic Search,Loyalist,hotmail.com,39.74,1,0
+76244,2024-09-13,41,F,France,Affiliate,Loyalist,yahoo.com,1144.0,0,0
+74032,2023-09-20,56,M,Canada,Email,At-Risk,gmail.com,88.08,0,1
+42914,2024-11-02,40,Prefer not to say,USA,Referral,At-Risk,hotmail.com,873.79,0,0
+16658,2021-03-02,53,M,Mexico,Paid Search,At-Risk,yahoo.com,51.46,0,0
+22097,2024-07-05,61,Prefer not to say,USA,Organic Search,At-Risk,icloud.com,89.68,1,1
+93136,2024-01-14,61,F,Germany,Paid Search,Occasional,icloud.com,703.51,0,0
+65518,2024-09-05,54,Non-binary,Mexico,Social Media,At-Risk,gmail.com,632.25,0,0
+46265,2024-07-28,65,M,USA,Organic Search,High-Value,icloud.com,317.21,1,0
+15778,2022-04-18,61,M,USA,Direct,Loyalist,icloud.com,153.21,1,1
+10464,2023-08-29,26,Non-binary,USA,Email,At-Risk,hotmail.com,540.64,1,1
+53719,2022-02-23,22,F,USA,Email,Occasional,hotmail.com,98.41,1,0
+27146,2022-10-03,43,F,UK,Social Media,High-Value,gmail.com,194.62,0,1
+93507,2022-05-19,51,M,Canada,Organic Search,Occasional,gmail.com,63.8,0,0
+44335,2022-08-09,47,F,USA,Affiliate,At-Risk,yahoo.com,149.28,1,0
+31178,2022-01-04,67,M,UK,Email,Occasional,hotmail.com,161.92,1,0
+67912,2022-02-18,47,F,USA,Social Media,At-Risk,yahoo.com,290.09,1,0
+82309,2023-01-14,23,F,Canada,Direct,New,yahoo.com,125.26,0,0
+66057,2024-03-04,60,F,France,Organic Search,Loyalist,gmail.com,145.51,0,0
+83519,2024-07-06,29,F,USA,Organic Search,Loyalist,hotmail.com,178.88,1,0
+11267,2022-03-21,55,F,UK,Email,New,gmail.com,62.54,1,0
+24663,2022-03-02,21,M,USA,Paid Search,Loyalist,gmail.com,1268.33,1,0
+19862,2021-04-11,24,F,USA,Social Media,Loyalist,icloud.com,247.53,0,0
+29536,2023-01-08,20,M,USA,Paid Search,At-Risk,gmail.com,38.42,1,0
+81511,2022-11-06,51,M,USA,Organic Search,At-Risk,icloud.com,583.15,0,0
+14722,2024-11-11,56,F,Mexico,Paid Search,Occasional,hotmail.com,62.33,1,0
+58393,2024-06-12,54,F,Canada,Email,High-Value,icloud.com,89.04,1,1
+86350,2023-08-11,58,F,Germany,Organic Search,High-Value,outlook.com,142.1,1,0
+82420,2021-01-24,58,M,USA,Direct,At-Risk,icloud.com,271.77,1,1
+29410,2023-03-23,64,M,Canada,Direct,Occasional,hotmail.com,837.01,1,1
+66333,2021-10-06,48,F,USA,Affiliate,New,outlook.com,452.35,0,0
+26704,2022-09-06,54,M,Australia,Email,At-Risk,hotmail.com,817.38,1,0
+15482,2022-09-24,63,M,France,Paid Search,High-Value,yahoo.com,43.77,1,0
+50404,2021-12-25,25,M,USA,Organic Search,Loyalist,icloud.com,32.04,1,1
+57795,2023-09-18,64,F,France,Paid Search,At-Risk,gmail.com,266.27,0,0
+15229,2023-12-06,25,F,USA,Social Media,Occasional,gmail.com,10.6,1,0
+56898,2022-10-02,19,M,UK,Affiliate,At-Risk,yahoo.com,76.62,0,0
+37535,2022-07-13,27,F,USA,Display Ad,Loyalist,gmail.com,77.3,1,1
+99399,2024-12-13,69,F,USA,Organic Search,At-Risk,hotmail.com,196.5,1,0
+42706,2021-04-14,24,F,USA,Paid Search,Loyalist,icloud.com,398.8,1,1
+97416,2022-11-12,70,M,USA,Direct,High-Value,outlook.com,208.73,0,0
+23473,2021-07-19,47,F,USA,Direct,Churned,yahoo.com,88.48,1,0
+56357,2022-11-08,68,M,France,Email,At-Risk,gmail.com,107.73,1,0
+83385,2024-05-22,54,F,USA,Direct,Loyalist,hotmail.com,203.17,1,0
+63264,2024-04-24,44,F,USA,Organic Search,At-Risk,gmail.com,36.04,1,0
+91351,2023-06-11,54,F,Germany,Paid Search,New,gmail.com,869.5,0,1
+30257,2024-05-05,47,M,USA,Email,Loyalist,outlook.com,2421.06,1,0
+41029,2024-09-14,21,F,USA,Affiliate,Occasional,gmail.com,757.9,1,1
+31299,2024-06-14,54,M,USA,Affiliate,At-Risk,hotmail.com,278.59,0,0
+33206,2021-05-08,41,F,France,Organic Search,Occasional,hotmail.com,64.97,1,0
+64040,2024-04-23,43,M,UK,Email,High-Value,yahoo.com,325.03,1,1
+13248,2023-01-08,71,M,USA,Affiliate,At-Risk,gmail.com,409.0,1,0
+33509,2021-06-23,26,F,UK,Email,New,icloud.com,1564.55,1,0
+53540,2023-07-11,42,F,USA,Social Media,At-Risk,yahoo.com,313.5,0,0
+63964,2021-03-10,20,F,Canada,Organic Search,High-Value,gmail.com,14.68,0,0
+97806,2022-07-27,47,M,Canada,Social Media,New,gmail.com,385.22,1,0
+42527,2022-12-05,52,F,Australia,Email,New,hotmail.com,4.13,0,1
+44970,2021-03-14,62,F,Mexico,Social Media,High-Value,gmail.com,323.24,1,0
+30866,2022-08-21,69,M,Australia,Email,Loyalist,gmail.com,454.13,1,1
+24168,2022-06-11,18,F,Australia,Affiliate,Churned,outlook.com,134.55,0,1
+60140,2022-01-06,69,Non-binary,Canada,Referral,Loyalist,icloud.com,55.04,0,1
+15075,2023-06-21,64,M,UK,Social Media,At-Risk,hotmail.com,312.74,1,1
+71694,2022-09-10,48,M,Australia,Email,High-Value,outlook.com,171.38,0,1
+39154,2023-07-09,42,M,UK,Social Media,Occasional,icloud.com,37.69,0,1
+36158,2022-07-01,69,F,USA,Paid Search,Churned,yahoo.com,531.19,1,1
+70332,2024-11-14,29,M,USA,Organic Search,Loyalist,outlook.com,159.07,1,1
+55830,2021-02-18,57,F,USA,Social Media,Occasional,icloud.com,442.57,1,0
+50001,2021-09-24,42,Non-binary,UK,Social Media,Occasional,gmail.com,297.22,1,0
+39831,2024-08-01,47,F,Mexico,Email,At-Risk,hotmail.com,22.46,1,1
+39219,2023-03-07,39,M,India,Direct,At-Risk,gmail.com,145.66,1,1
+13101,2023-10-05,24,F,USA,Organic Search,High-Value,outlook.com,285.23,1,0
+96511,2022-05-29,67,F,USA,Organic Search,Occasional,gmail.com,276.84,0,0
+35313,2024-03-22,18,M,Canada,Email,Occasional,gmail.com,195.58,0,0
+62227,2023-09-15,25,F,Canada,Paid Search,Occasional,outlook.com,280.71,0,1
+53025,2023-07-31,66,M,Australia,Organic Search,Churned,outlook.com,279.39,1,1
+46517,2024-11-11,40,M,Canada,Email,Occasional,gmail.com,22.95,1,0
+19099,2021-05-10,68,F,Canada,Email,At-Risk,outlook.com,114.67,0,1
+46585,2022-03-10,69,F,UK,Display Ad,New,icloud.com,37.53,0,1
+56025,2021-10-17,49,M,UK,Affiliate,New,yahoo.com,25.67,0,1
+94080,2021-08-06,25,F,Canada,Paid Search,High-Value,outlook.com,27.93,0,1
+76768,2021-09-05,61,F,UK,Direct,Loyalist,gmail.com,236.12,1,1
+62386,2023-05-01,28,F,UK,Email,New,gmail.com,270.39,1,0
+99065,2021-06-15,18,F,USA,Social Media,Occasional,hotmail.com,79.77,0,0
+80282,2022-02-27,27,Non-binary,UK,Email,New,icloud.com,444.04,0,0
+53404,2021-06-30,58,F,Germany,Email,At-Risk,yahoo.com,39.0,1,1
+13617,2024-01-11,50,M,USA,Social Media,High-Value,yahoo.com,76.78,0,0
+25118,2023-10-16,29,M,USA,Organic Search,Occasional,yahoo.com,150.63,0,0
+44237,2021-03-30,24,F,Australia,Organic Search,Occasional,outlook.com,186.84,1,0
+33405,2024-04-02,38,M,USA,Affiliate,High-Value,gmail.com,125.99,0,0
+86099,2023-02-09,32,M,USA,Organic Search,Churned,yahoo.com,797.55,1,1
+44795,2022-02-02,58,M,USA,Paid Search,At-Risk,icloud.com,617.48,1,1
+15014,2022-08-28,56,F,USA,Display Ad,High-Value,icloud.com,1.66,1,0
+24208,2022-07-26,18,M,Australia,Paid Search,High-Value,icloud.com,659.04,1,0
+88193,2023-10-30,20,F,USA,Direct,New,gmail.com,161.07,1,1
+66959,2023-04-13,31,M,USA,Social Media,At-Risk,outlook.com,265.22,1,0
+55309,2024-04-10,19,F,India,Organic Search,New,yahoo.com,432.17,1,0
+51114,2024-07-08,22,M,USA,Email,Churned,hotmail.com,475.57,1,1
+67199,2024-11-03,23,F,UK,Display Ad,New,hotmail.com,93.13,1,1
+89457,2024-02-19,63,Prefer not to say,USA,Organic Search,High-Value,yahoo.com,224.33,0,0
+77033,2024-12-10,31,F,Australia,Paid Search,High-Value,icloud.com,290.18,1,1
+25157,2023-09-23,50,F,Canada,Social Media,Loyalist,icloud.com,717.29,1,0
+60488,2024-11-20,69,F,India,Organic Search,Occasional,gmail.com,65.49,0,0
+85574,2022-02-23,51,F,Mexico,Email,Loyalist,yahoo.com,166.51,0,1
+34914,2022-01-23,22,F,USA,Direct,Occasional,hotmail.com,140.67,1,1
