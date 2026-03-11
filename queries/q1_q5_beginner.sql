@@ -1,4 +1,4 @@
--- 1. Which product categories generate the most revenue?
+**-- 1. Which product categories generate the most revenue?**
 
 SELECT
 	product_category,
@@ -8,7 +8,7 @@ FROM orders
 GROUP BY product_category
 ORDER BY total_revenue DESC
 
--- 2. What does our monthly revenue trend look like over time?
+**-- 2. What does our monthly revenue trend look like over time?**
 
 SELECT
     YEAR(order_date) AS year,
@@ -18,7 +18,7 @@ FROM orders
 GROUP BY YEAR(order_date), MONTH(order_date), DATENAME(MONTH, order_date)
 ORDER BY year, MONTH(order_date)
 
--- 3. Which marketing channels bring in the most orders?
+**-- 3. Which marketing channels bring in the most orders?**
 
 SELECT
 	marketing_channel,
@@ -28,7 +28,7 @@ FROM orders
 GROUP BY marketing_channel
 ORDER BY order_count DESC, total_revenue
 
--- 4. How effective are promo codes?
+**-- 4. How effective are promo codes?**
 
 SELECT
 	CASE
@@ -45,7 +45,7 @@ GROUP BY
 		ELSE 'Promo Used'
 	END
 
--- 5. What's the split between device types, and does it affect order size?
+**-- 5. What's the split between device types, and does it affect order size?**
 
 SELECT
 	device_type,
