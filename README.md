@@ -1,4 +1,4 @@
-﻿# From Clicks to Customers: A SQL Analysis of E-Commerce Marketing Performance
+# From Clicks to Customers: A SQL Analysis of E-Commerce Marketing Performance
 
 Exploratory analysis of a synthetic e-commerce dataset using SQL Server. Covers revenue trends, customer segmentation, marketing channel performance, and RFM scoring across 5,000 orders and 500 customers. Demonstrates core to advanced SQL skills including JOINs, CTEs, window functions, and business metric calculations.
 
@@ -94,7 +94,7 @@ Exploratory analysis of a synthetic e-commerce dataset using SQL Server. Covers 
 
 ---
 
-### 🔴 Advanced: Q11–Q16
+### 🔴 Advanced: Q11–Q15
 *Demonstrates analytical thinking beyond querying — window functions, CTEs, and business metric calculations*
 
 | # | Question | SQL Concepts |
@@ -104,9 +104,8 @@ Exploratory analysis of a synthetic e-commerce dataset using SQL Server. Covers 
 | 13 | Build a simple RFM score for each customer | CTE, NTILE, DATEDIFF, Window Functions |
 | 14 | Which marketing channels have the best ROI? | CTE, SUM, WHERE, Arithmetic |
 | 15 | Do paid channels drive higher purchase frequency than organic ones? | CTE, CASE WHEN, AVG, GROUP BY |
-| 16 | Which customer segments have a disproportionately high return and cancellation rate? | JOIN, CTE, COUNT, ROUND, Rate Calculation |
+| 16 ⭐ | Which customer segments have a disproportionately high return and cancellation rate? | JOIN, CTE, COUNT, ROUND, Rate Calculation |
 
 ---
 
 > Full queries with insights for each question are available in [queries.sql](queries.sql)
-
