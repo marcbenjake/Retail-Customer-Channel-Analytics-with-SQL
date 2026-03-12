@@ -129,9 +129,7 @@ ORDER BY device_orders DESC
 -- ============================================
 -- Q6. Which acquisition channels produce the highest-value customers?
 -- ============================================
--- Goal: JOIN both tables, group by acquisition channel and compare
--- average estimated CLV and average total spend per customer to identify
--- which channels attract the highest value customers.
+-- Goal: JOIN both tables, group by acquisition channel and compare average estimated CLV and average total spend per customer to identify which channels attract the highest value customers.
 
 WITH cte AS (
     SELECT
@@ -153,21 +151,16 @@ FROM cte
 GROUP BY acquisition_channel
 ORDER BY total_spend_per_customer DESC
 
--- Insight: Social Media acquires the most customers (77) and delivers the
--- highest average spend per customer ($4,525.56), making it the most valuable
--- acquisition channel overall. Paid Search customers (76) show the highest
--- average estimated CLV ($332.56) despite ranking fourth in total spend,
--- suggesting strong long term potential. Referral has the fewest customers (8)
--- and the lowest average spend ($3,262.46), indicating it is an underdeveloped
--- channel. Display Ad customers show a high avg CLV ($378.14) relative to their
--- spend, suggesting untapped potential if the channel were scaled up.
+-- Social Media acquires the most customers (77) and delivers the highest average spend per customer ($4,525.56), making it the most valuable acquisition channel overall.
+-- Paid Search customers (76) show the highest average estimated CLV ($332.56) despite ranking fourth in total spend, suggesting strong long-term potential.
+-- Referral has the fewest customers (8) and the lowest average spend ($3,262.46), indicating it is an underdeveloped channel.
+-- Display Ad customers show a high avg CLV ($378.14) relative to their spend, suggesting untapped potential if the channel were scaled up.
 
 
 -- ============================================
 -- Q7. Do email opt-in customers spend more?
 -- ============================================
--- Goal: Compare average total spend between email opt-in and
--- non opt-in customers to evaluate the value of email marketing.
+-- Goal: Compare average total spend between email opt-in and non-opt-in customers to evaluate the value of email marketing.
 
 WITH cte AS (
     SELECT
@@ -189,20 +182,15 @@ SELECT
 FROM cte
 GROUP BY email_opt_in_status
 
--- Insight: Email opt-in customers (296) spend significantly more on average
--- ($4,424.13) compared to non opt-in customers (129) who spend $3,968.56 --
--- a difference of $455.57 or approximately 11.5% more per customer.
--- This suggests email marketing is positively associated with higher customer
--- value, either by attracting more engaged buyers or by driving repeat
--- purchases through campaigns. Growing the email opt-in base should be
--- a priority for the marketing team.
+-- Email opt-in customers (296) spend significantly more on average ($4,424.13) compared to non opt-in customers (129) who spend $3,968.56, a difference of $455.57 or approximately 11.5% more per customer.
+-- This suggests email marketing is positively associated with higher customer value, either by attracting more engaged buyers or by driving repeat purchases through campaigns.
+-- Growing the email opt-in base should be a priority for the marketing team.
 
 
 -- ============================================
 -- Q8. Which customer segments have the highest return and cancellation rates?
 -- ============================================
--- Goal: Identify which customer segments generate the most returns and
--- cancellations to help the business target retention and quality improvements.
+-- Goal: Identify which customer segments generate the most returns and cancellations to help the business target retention and quality improvements.
 
 SELECT
     COUNT(c.customer_id) AS customer_count,
@@ -215,25 +203,17 @@ WHERE o.order_status IN ('Returned', 'Cancelled')
 GROUP BY c.customer_segment, o.order_status
 ORDER BY customer_count DESC
 
--- Insight: New customers account for the highest raw count of both returns (192)
--- and cancellations (172), making them the most problematic segment by volume.
--- This may reflect unmet expectations from first time buyers unfamiliar with
--- the brand. Occasional customers rank second across both statuses (124 each),
--- suggesting infrequent buyers are less committed to their purchases.
--- At-Risk and Loyalist segments show moderate return and cancellation counts,
--- which is concerning for Loyalists as these are otherwise high value customers.
--- High-Value customers show the lowest combined counts (78 + 68), suggesting
--- that higher engagement correlates with lower dissatisfaction.
--- Note: These are raw counts -- see Q16 for rate-based analysis which provides
--- a more accurate picture adjusted for segment size.
+-- New customers account for the highest raw count of both returns (192) and cancellations (172), making them the most problematic segment by volume.
+-- This may reflect unmet expectations from first-time buyers unfamiliar with the brand.
+-- Occasional customers rank second across both statuses (124 each), suggesting infrequent buyers are less committed to their purchases.
+-- At-Risk and Loyalist segments show moderate return and cancellation counts, which is concerning for Loyalists as these are otherwise high-value customers.
+-- High-Value customers show the lowest combined counts (78 + 68), suggesting that higher engagement correlates with lower dissatisfaction.
 
 
 -- ============================================
 -- Q9. Which customers have never placed an order?
 -- ============================================
--- Goal: Use a LEFT JOIN to identify customers in the customers table
--- that have no matching records in the orders table.
--- This is a fundamental interview pattern for finding missing relationships.
+-- Goal: Use a LEFT JOIN to identify customers in the customers table that have no matching records in the orders table.
 
 SELECT
     c.customer_id,
@@ -247,24 +227,18 @@ LEFT JOIN orders AS o
 ON c.customer_id = o.customer_id
 WHERE o.customer_id IS NULL
 
--- Insight: 75 customers (15% of the total customer base) have never placed
--- an order. The output spans a mix of acquisition channels, segments, and
--- countries, suggesting no single channel or segment is solely responsible
--- for inactive customers. Notable observations include High-Value and Loyalist
--- segment customers appearing in the list, which warrants further investigation
--- as these segments are expected to be active buyers. This group represents
--- a potential re-engagement opportunity for the marketing team through
--- targeted win-back campaigns.
+-- 75 customers (15% of the total customer base) have never placed an order.
+-- The output spans a mix of acquisition channels, segments, and countries, suggesting no single channel or segment is solely responsible for inactive customers.
+-- Notable observations include High-Value and Loyalist segment customers appearing in the list, which warrants further investigation, as these segments are expected to be active buyers.
+-- This group represents a potential re-engagement opportunity for the marketing team through targeted win-back campaigns.
 
 
 -- ============================================
 -- Q10. What is the average time between signup and first order
 -- by acquisition channel?
 -- ============================================
--- Goal: Calculate the average number of days between a customer's
--- signup date and their first order date, grouped by acquisition channel.
--- ABS() is applied as some customers placed a guest order before signing up,
--- which is a valid real world scenario.
+-- Goal: Calculate the average number of days between a customer's signup date and their first order date, grouped by acquisition channel.
+-- ABS() is applied as some customers placed a guest order before signing up, which is a valid real-world scenario.
 
 WITH cte1 AS (
     SELECT
@@ -292,15 +266,10 @@ FROM cte2
 GROUP BY acquisition_channel
 ORDER BY avg_days_to_first_order ASC
 
--- Insight: Affiliate channel has the longest average time to first order (864 days),
--- suggesting customers acquired through affiliates take significantly longer to
--- convert, possibly due to lower purchase intent at acquisition.
--- Direct channel customers convert faster (578 days) indicating higher intent
--- from customers who seek out the brand directly.
--- Display Ad (525 days) surprisingly shows the fastest conversion despite being
--- a passive channel, which may reflect impulse purchase behavior.
--- All channels show relatively long conversion windows (525-864 days) which may
--- reflect the synthetic nature of the dataset spanning 4 years.
+-- Affiliate channel has the longest average time to first order (864 days), suggesting customers acquired through affiliates take significantly longer to convert, possibly due to lower purchase intent at acquisition.
+-- Direct channel customers convert faster (578 days), indicating higher intent from customers who seek out the brand directly.
+-- Display Ad (525 days) surprisingly shows the fastest conversion despite being a passive channel, which may reflect impulse purchase behaviour.
+-- All channels show relatively long conversion windows (525-864 days), which may reflect the synthetic nature of the dataset spanning 4 years.
 
 
 -- ============================================================
@@ -312,9 +281,7 @@ ORDER BY avg_days_to_first_order ASC
 -- ============================================
 -- Q11. Who are our top 10% of customers by revenue?
 -- ============================================
--- Goal: Use NTILE(10) to bucket customers by total spend and profile
--- the top 10% by segment, acquisition channel and country to identify
--- shared characteristics of the highest value customers.
+-- Goal: Use NTILE(10) to bucket customers by total spend and profile the top 10% by segment, acquisition channel and country to identify shared characteristics of the highest value customers.
 
 WITH cte AS (
     SELECT
@@ -343,23 +310,16 @@ FROM cte
 WHERE spend_percentile = 1
 ORDER BY total_spend DESC
 
--- Insight: The top 10% of customers by revenue show a diverse mix of segments
--- and channels with no single dominant profile, suggesting high value customers
--- are acquired across multiple touchpoints. USA customers appear most frequently
--- reflecting the dataset's geographic distribution. Organic Search and Social
--- Media are the most represented acquisition channels in the top tier, aligning
--- with Q6's finding that these channels produce the highest spending customers.
--- Churned customers appearing in the top 10% is a significant finding --
--- these are high value customers the business has already lost and should be
--- priority targets for win-back campaigns.
+-- The top 10% of customers by revenue show a diverse mix of segments and channels with no single dominant profile, suggesting high value customers are acquired across multiple touchpoints.
+-- USA customers appear most frequently, reflecting the dataset's geographic distribution.
+-- Organic Search and Social Media are the most represented acquisition channels in the top tier; these channels produce the highest spending customers.
+-- Churned customers appearing in the top 10% is a significant finding; these are high value customers the business has already lost and should be priority targets for win-back campaigns.
 
 
 -- ============================================
 -- Q12. What is the month-over-month revenue growth rate?
 -- ============================================
--- Goal: Use LAG() to compare each month's revenue to the prior month
--- and calculate the percentage change to identify growth trends.
--- NULL in row 1 is expected as there is no prior month to compare against.
+-- Goal: Use LAG() to compare each month's revenue to the prior month and calculate the percentage change to identify growth trends.
 
 WITH cte AS (
     SELECT
@@ -378,23 +338,17 @@ SELECT
         * 100.0 / LAG(monthly_revenue) OVER(ORDER BY year, month), 2) AS percent_difference
 FROM cte
 
--- Insight: Revenue growth is highly volatile month-over-month with swings
--- ranging from -42.7% (September 2024) to +90.8% (January 2022).
--- No consistent upward or downward trend is visible across the 4 year period,
--- suggesting revenue is driven by unpredictable demand rather than seasonal
--- or structural growth patterns. The largest positive jump occurs in
--- January 2022 (+90.8%) following December 2021's sharp decline (-36.96%),
--- indicating a post-holiday recovery effect. The high volatility across all
--- years is consistent with the synthetic nature of the dataset where orders
--- were distributed randomly across months.
+-- Revenue growth is highly volatile month-over-month with swings ranging from -42.7% (September 2024) to +90.8% (January 2022).
+-- No consistent upward or downward trend is visible across the 4 year period, suggesting revenue is driven by unpredictable demand rather than seasonal or structural growth patterns.
+-- The largest positive jump occurs in January 2022 (+90.8%) following December 2021's sharp decline (-36.96%), indicating a post-holiday recovery effect.
+-- The high volatility across all years is consistent with the synthetic nature of the dataset where orders were distributed randomly across months.
 
 
 -- ============================================
 -- Q13. Build a simple RFM score for each customer
 -- ============================================
--- Goal: Calculate Recency (days since last order), Frequency (order count),
--- and Monetary (total spend) per customer, score each on a 1-5 scale using
--- NTILE(5), and combine into a single RFM score.
+-- Goal: Calculate Recency (days since last order), Frequency (order count), and Monetary (total spend) per customer, score each on a 1-5 scale.
+-- Using NTILE(5), and combine into a single RFM score.
 -- Higher RFM score = more valuable customer.
 
 WITH cte AS (
@@ -429,25 +383,17 @@ SELECT
 FROM cte2
 ORDER BY RFM_score DESC
 
--- Insight: The highest RFM score achievable is 15, with the top customers
--- scoring a perfect 15 across all three dimensions -- recent purchasers,
--- high frequency buyers, and high spenders simultaneously.
--- Recency scores of 5 dominate the top of the list, confirming that
--- recent purchase behavior is a strong indicator of overall customer value.
--- The RFM framework applied here is a widely used marketing segmentation model
--- that helps prioritize customers for retention, upsell, and re-engagement
--- campaigns. Customers scoring 12-15 are prime candidates for loyalty rewards,
--- while those scoring below 6 may require win-back campaigns or can be
--- deprioritized for high cost marketing spend.
+-- The highest RFM score achievable is 15, with the top customers scoring a perfect 15 across all three dimensions: recent purchasers, high frequency buyers, and high spenders simultaneously.
+-- Recency scores of 5 dominate the top of the list, confirming that recent purchase behavior is a strong indicator of overall customer value.
+-- The RFM framework applied here is a widely used marketing segmentation model that helps prioritize customers for retention, upsell, and re-engagement campaigns.
+-- Customers scoring 12-15 are prime candidates for loyalty rewards, while those scoring below 6 may require win-back campaigns or can be deprioritized for high cost marketing spend.
 
 
 -- ============================================
 -- Q14. Which marketing channels have the best ROI?
 -- ============================================
--- Goal: Compare total ad spend vs total revenue for paid channels only
--- and calculate a return ratio to identify the most efficient channels.
--- Organic channels are excluded as direct costs are not captured
--- in this dataset and would result in a divide by zero error.
+-- Goal: Compare total ad spend vs total revenue for paid channels only and calculate a return ratio to identify the most efficient channels.
+-- Organic channels are excluded as direct costs are not captured in this dataset and would result in a divide by zero error.
 
 WITH cte AS (
     SELECT
@@ -466,24 +412,16 @@ SELECT
 FROM cte
 ORDER BY marketing_ROI DESC
 
--- Insight: All three paid channels deliver exceptionally high ROI, returning
--- roughly 2,600-3,000x their ad spend in revenue. Paid Search leads with the
--- highest ROI (3,021x) on $11,605 in spend generating $362,329 in revenue,
--- making it the most efficient paid channel. Social Media follows closely
--- (2,803x) with the highest absolute ad spend ($12,843) and revenue ($372,881).
--- Display Ad has the lowest ROI (2,596x) and the smallest spend ($3,245),
--- suggesting it is underinvested relative to its potential.
--- Note: The extremely high ROI values across all channels are consistent with
--- the synthetic nature of the dataset where ad spend values were kept small
--- relative to revenue. In a real world scenario ROI benchmarks typically
--- range from 2x to 10x for paid digital channels.
-
+-- All three paid channels deliver exceptionally high ROI, returning roughly 2,600-3,000x their ad spend in revenue.
+-- Paid Search leads with the highest ROI (3,021x) on $11,605 in spend, generating $362,329 in revenue, making it the most efficient paid channel.
+-- Social Media follows closely (2,803x) with the highest absolute ad spend ($12,843) and revenue ($372,881).
+-- Display Ad has the lowest ROI (2,596x) and the smallest spend ($3,245), suggesting it is underinvested relative to its potential.
+-- Note: The extremely high ROI values across all channels are consistent with the synthetic nature of the dataset, where ad spend values were kept small relative to revenue.
 
 -- ============================================
 -- Q15. Do paid channels drive higher purchase frequency than organic ones?
 -- ============================================
--- Goal: Compare average order frequency between paid and organic acquisition
--- channels to identify which channel type produces more frequent buyers.
+-- Goal: Compare average order frequency between paid and organic acquisition channels to identify which channel type produces more frequent buyers.
 -- Organic channels: Direct, Organic Search, Referral
 -- Paid channels: Social Media, Email, Paid Search, Affiliate, Display Ad
 
@@ -520,26 +458,16 @@ SELECT
     average_order_count
 FROM cte2
 
--- Insight: Both paid (257 customers) and organic (168 customers) channels
--- produce an identical average order frequency of 11 orders per customer.
--- This suggests that acquisition channel does not influence purchase frequency
--- in this dataset. The finding is likely attributable to the synthetic nature
--- of the dataset where orders were distributed randomly across customers
--- regardless of their acquisition channel. In a real world scenario paid
--- channels often show different retention patterns compared to organic ones
--- due to differences in customer intent and engagement at acquisition.
+-- Both paid (257 customers) and organic (168 customers) channels produce an identical average order frequency of 11 orders per customer.
+-- This suggests that acquisition channel does not influence purchase frequency in this dataset.
+-- The finding is likely attributable to the synthetic nature of the dataset where orders were distributed randomly across customers regardless of their acquisition channel.
 
 
 -- ============================================
--- Q16. ⭐ Which customer segments have a disproportionately high return
--- and cancellation rate, and where should the business focus its
--- retention efforts?
+-- Q16. ⭐ Which customer segments have a disproportionately high return and cancellation rate, and where should the business focus its retention efforts?
 -- ============================================
--- Goal: Calculate return and cancellation rates per customer segment
--- by comparing cancelled/returned orders against total orders to give
--- a fairer picture than raw counts alone.
--- This question was self-initiated as an extension of Q8 to demonstrate
--- rate-based thinking over raw count analysis.
+-- Goal: Calculate return and cancellation rates per customer segment by comparing cancelled/returned orders against total orders to give a fairer picture than raw counts alone.
+-- This question was self-initiated as an extension of Q8 to demonstrate rate-based thinking over raw count analysis.
 
 WITH cte AS (
     SELECT
@@ -564,15 +492,7 @@ WHERE o1.order_status IN ('Returned', 'Cancelled')
 GROUP BY cte.customer_segment, cte.order_count
 ORDER BY cancel_return_percent DESC
 
--- Insight: Occasional customers have the highest return and cancellation rate
--- (27.19%) despite not having the highest raw count, making them the most
--- disproportionately dissatisfied segment. New customers follow closely at
--- 25.28%, confirming that first time buyers have higher dissatisfaction levels
--- possibly due to unmet expectations. At-Risk customers show the lowest rate
--- (21.91%), suggesting their at-risk status may be driven by other factors
--- such as inactivity rather than poor purchase experience. Loyalist (25.95%)
--- and High-Value (25.75%) segments showing rates above 25% is a concern --
--- these are the business's most valuable customers and their dissatisfaction
--- should be investigated and addressed as a priority.
--- This analysis extends Q8 by providing rate-based context rather than
--- raw counts, giving a more accurate picture of segment dissatisfaction.
+-- Occasional customers have the highest return and cancellation rate (27.19%) despite not having the highest raw count, making them the most disproportionately dissatisfied segment.
+-- New customers follow closely at 25.28%, confirming that first-time buyers have higher dissatisfaction levels, possibly due to unmet expectations.
+-- At-Risk customers show the lowest rate (21.91%), suggesting their at-risk status may be driven by other factors such as inactivity rather than poor purchase experience.
+-- Loyalist (25.95%) and High-Value (25.75%) segments showing rates above 25% is a concern; these are the business's most valuable customers and their dissatisfaction should be investigated and addressed as a priority.
