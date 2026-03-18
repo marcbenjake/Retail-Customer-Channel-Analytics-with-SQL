@@ -14,7 +14,7 @@
 
 
 -- ============================================
--- ## Q1. Which product categories generate the most revenue?
+-- ** Q1. Which product categories generate the most revenue? **
 -- ============================================
 -- Goal: Rank categories by total net revenue and compare average order values to identify top-performing categories.
 
